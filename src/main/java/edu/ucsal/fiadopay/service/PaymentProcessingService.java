@@ -14,7 +14,7 @@ public class PaymentProcessingService {
     private final PaymentRepository payments;
     private final WebhookDeliveryService webhookService;
 
-    @Value("$fiadopay.processing-delay-ms")
+    @Value("${fiadopay.processing-delay-ms}")
     private long delay;
     @Value("${fiadopay.failure-rate}")
     private double failRate;
