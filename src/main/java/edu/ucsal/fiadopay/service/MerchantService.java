@@ -1,6 +1,6 @@
 package edu.ucsal.fiadopay.service;
 
-import edu.ucsal.fiadopay.controller.TokenResponse;
+import edu.ucsal.fiadopay.controller.dto.TokenResponse;
 import edu.ucsal.fiadopay.domain.Merchant;
 import edu.ucsal.fiadopay.repo.MerchantRepository;
 import lombok.RequiredArgsConstructor;

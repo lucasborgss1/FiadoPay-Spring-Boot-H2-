@@ -1,5 +1,7 @@
 package edu.ucsal.fiadopay.controller;
 
+import edu.ucsal.fiadopay.controller.dto.TokenRequest;
+import edu.ucsal.fiadopay.controller.dto.TokenResponse;
 import edu.ucsal.fiadopay.service.MerchantService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
